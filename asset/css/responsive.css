@@ -1,0 +1,108 @@
+
+@media all and (max-width:990px) {
+	.menu_icone{
+		display: block;
+	}
+	.menu ul{
+		display: none;
+		position: absolute;
+		width: 90%;
+		text-align: center;
+		top: 70px;
+		z-index: 99;
+		padding: 20px;
+		background: rgba(8, 6, 0, .8);
+	}
+	.menu{
+		position: relative;
+	}
+	.menu ul li a{
+		padding: 8px 0;
+	}
+	.menu ul li a:after{
+		display: none;
+	}
+	/*second*/
+	.single_about{
+		margin: 15px 0;
+	}
+	/*single_blog_area*/
+	.single_blog_area{
+		margin: 20px 0;
+	}
+	
+}
+
+@media all and (min-width:990px) {
+	.menu{
+		display: flex !important;
+	}
+
+}
+
+@media all and (max-width:576px) {
+	.menu_icone{
+		position: absolute;
+		top: -50px;
+		right: 0;
+	}
+}
+
+@media all and (max-width:767px) {
+	/*header section*/
+	.header_text h1 {
+	    font-size: 50px;
+	}
+	.header_text h5 {
+	    font-size: 20px;
+	}
+	.header_text P{
+		font-size: 15px;
+	}
+	/*btn bottom*/
+	.btn_menu ul li a {
+		font-size: 17px;
+	}
+	/*mixitup*/
+	.workinng_menu ul li {
+	    display: block;
+	    padding: 5px 10px;
+	    font-size: 13px;
+	    margin: 0 3px;
+    }
+    .single_fun{
+    	margin: 30px 0;
+    }
+    /*teame area*/
+    .teame_heading h1 {
+	    font-size: 42px;
+	}
+	.teame_heading p{
+		padding-bottom: 60px;
+	}
+	/*other area css*/
+	.other_area h2{
+		font-size: 25px;
+	}
+
+}
+
+@media all and (max-width:575px) {
+	/*header section*/
+	.header_text h1 {
+	    font-size: 44px;
+	}
+	.header_text h5 {
+	    font-size: 17px;
+	}
+	/*mixitup*/
+	.workinng_menu ul li {
+	    display: block;
+	    padding: 5px 7px;
+	    font-size: 12px;
+	    margin: 0 2px;
+	}
+
+
+
+}

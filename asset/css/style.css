@@ -1,0 +1,715 @@
+/*
+Template Name : cuda
+Template :url:https://cuda.come
+Autor :Shakil
+Autor : url:https://Shakil.me
+Description : This Is Bino Template
+*/
+
+@import url('bootstrap.min.css');
+@import url('fontawesome.min.css');
+@import url('../fonts/stylesheet.css');
+
+
+h1 h2 h3 h4 h5 h6 p{
+	margin: 0;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+p{
+	color: #999999;
+	font-family: "Source Serif 4", serif;
+}
+h1{
+	font-family: "Source Serif 4", serif;
+	font-weight: 800;
+}
+h2{
+	 font-family: "Source Serif 4", serif;
+	 font-weight: 600;
+}
+h3{
+	 font-family: "Source Serif 4", serif;
+	 font-weight: 600;
+}
+.section_padding{
+	padding: 60px 0;
+}
+
+  /**************************************************************************************/
+ /****************************  Header area css 1  *************************************/
+/**************************************************************************************/
+.header_area{
+	background: url(../images/banner.png) no-repeat scroll 0 0 / 100% 100%;
+}
+.menu ul{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+.menu ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Source Serif 4", serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: .5s;
+}
+.menu ul li:hover a{
+	color: #e74c3c;
+	border-bottom: 1px solid #e74c3c;
+}
+.menu ul li.active a{
+	color: #e74c3c;
+	border-bottom: 1px solid #e74c3c;
+}
+
+
+
+.header_text{
+	padding-top: 50px;
+}
+.header_text h5{
+	font-size: 22px;
+	color: #f4f5f9;
+	padding-top: 30px;
+
+}
+.header_text h1{
+	color: #f4f5f9;
+	font-size: 58px;
+	padding: 15px 0;
+}
+.header_text p {
+  font-size: 17px;
+  color: #f4f5f9;
+  line-height: 22px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+.btn_menu ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.btn_menu{
+	padding-bottom: 100px;
+}
+.btn_menu ul li a{
+	display: block;
+	font-size: 20px;
+	font-family: "Source Serif 4", serif;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 50px;
+	border-radius: 5px;
+	background: transparent;
+	border: 2px solid #fff;
+	transition: .5s;
+}
+.btn_menu ul li:hover a{
+	background: #e74c3c;
+	color: #fff;
+	border-color: #e74c3c;
+}
+.btn_menu ul li.active a{
+	background: #e74c3c;
+	color: #fff;
+	border-color: #e74c3c;
+}
+/*menu icone css*/
+.menu_icone{
+	display: none;
+	color: #fff;
+	font-size: 30px;
+  border: 1px solid #fff;
+  padding: 3px 10px;
+  border-radius: 4px;
+  float: right;
+  transition: .5s;
+}
+.menu_icone:hover{
+	color:#e74c3c ;
+	border-color: #e74c3c;
+}
+
+  /**************************************************************************************/
+ /****************************   About area css 2  *************************************/
+/**************************************************************************************/
+.about_icone{
+	margin-top: -90px;
+}
+
+.about_icone i {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #ccced5;
+  text-align: center;
+  line-height: 46px;
+  font-size: 25px;
+  color: #e74c3c;
+  border: 6px solid #6a6a6a;
+}
+.single_about{
+	cursor: pointer;
+}
+.single_iconic i{
+	font-size: 30px;
+	color: #ed7a6e;
+	padding: 20px;
+	border: 1px solid #e5e5e5;
+	transition: .5s;
+}
+.about_text{
+	padding: 15px;
+	box-sizing: border-box;
+
+}
+.about_text h3{
+	font-size: 18px;
+	color: #6a6a6a;
+	padding: 10px 0;
+	transition: .5s;
+	border-bottom: 2px solid #6a6a6a;
+}
+.about_text p{
+	color: #6a6a6a;
+	font-size: 13px;
+}
+
+.single_about:hover i{
+	border:1px solid  #e74c3c;
+}
+.single_about:hover h3{
+	border-bottom:2px solid #e74c3c ;
+	color: #e74c3c;
+}
+
+  /**************************************************************************************/
+ /**************************** histry area css 3   *************************************/
+/**************************************************************************************/
+
+.history_area{
+	border-top: 1px solid #6a6a6a;
+}
+.histry_left img{
+	width: 100%;
+	height: auto;
+}
+.riht_text h3{
+	font-size: 33px;
+	color:#6a6a6a ;
+	padding: 5px 10px;
+	border-left: 4px solid #e74c3c;
+}
+.riht_text p{
+	font-size: 14px ;
+	color: #999999;
+	padding: 50px 10px;
+}
+
+
+.bnt_style_tt{
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    background: #e74c3c;
+}
+
+  /**************************************************************************************/
+ /************************** services area css 4   *************************************/
+/**************************************************************************************/
+.services_area{
+	background: #202020;
+}
+.single_service{
+	text-align: right;
+}
+.single_service h2{
+	color: #fff;
+	font-size: 36px;
+	padding:  0 20px;
+	border-right: 4px solid #e96052;
+}
+.services_header{
+	margin: 20px 0;
+}
+.sing_servicing{
+	padding-top: 40px;
+}
+.services_icone_text h3{
+	color: #e74c3c;
+	font-size: 18px;
+}
+.services_icone_text p{
+	color: #999999;
+	font-size: 14px;
+}
+.services_icone{
+	padding-left: 30px;
+}
+.services_icone i {
+  color: #e96052;
+  width: 60px;
+  height: 60px;
+  background: #f4f5f9;
+  border-radius: 50%;
+  line-height: 51px;
+  text-align: center;
+  font-size: 26px;
+  border: 6px solid #61534d;
+}
+.single_service img{
+	width: 100%;
+	height: auto;
+}
+
+
+  /**************************************************************************************/
+ /************************** Resent working area css  5  *******************************/
+/**************************************************************************************/
+
+.working_header h1{
+	font-size: 38px;
+	color: #6a6a6a;
+}
+.working_header P{
+	color: #999999;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	font-size: 14px;
+	border-bottom: 1px solid #999999;
+}
+.workinng_menu{
+	padding-bottom: 50px;
+}
+.workinng_menu ul{
+	display: flex;
+	justify-content: center;
+}
+.workinng_menu ul li {
+  display: block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #6a6a6a;
+  font-family: "Source Serif 4", serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: .5s;
+  background: inherit;
+  background: #cbbaaa;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.workinng_menu ul li.active{
+	color: #e74c3c;
+}
+
+.each_item img{
+	width: 100%;
+	display: block;
+	height: auto;
+}
+.each_item{
+	position: relative;
+}
+.padding_arround{
+	padding: 2px;
+}
+.each_when_hover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: green;
+	text-align: center;
+	background: rgba(76,173,79, .8);
+	transform: scale(0);
+	transition: .3s;
+}
+.each_item:hover .each_when_hover{
+	transform: scale(1);
+}
+.each_when_hover span{
+	display: inline-block;
+	position: absolute;
+	color: #fff;
+	font-size: 60px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+  /**************************************************************************************/
+ /************************************ case area css  6  *******************************/
+/**************************************************************************************/
+.case_area{
+	background-color: rgb(244, 245, 249);
+}
+.case_header{
+	margin-bottom: 40px;
+}
+.single_case{
+	background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.6);
+}
+.case_images{
+	padding: 20px 0;
+}
+.case_header h2{
+	color: #6a6a6a;
+	font-size: 36px;
+}
+.case_header p{
+	color: #999999;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #999999 ;
+}
+.single_case_text{
+	padding: 20px 40px;
+	box-sizing: border-box;
+}
+.single_case_text h3{
+	font-size: 18px;
+	color: #6a6a6a;
+}
+.single_case_text p{
+	font-size: 14px;
+	padding: 45px 0;
+	color:#999999 ;
+}
+.single_cases{
+	background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.6);
+}
+.single_cases img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+  /**************************************************************************************/
+ /*************************** fun_face_area area css  7  *******************************/
+/**************************************************************************************/
+.fun_face_area{
+	background: url(../images/couner.png) no-repeat scroll 0 0 / 100% 100%;
+}
+.single_fun i {
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: inherit;
+  border: 1px solid #fff;
+  line-height: 62px;
+  font-size: 28px;
+}
+.single_fun h2{
+	font-size: 35px;
+	color: #f4f5f9;
+	padding-top: 40px;
+	padding-bottom: 15px;
+}
+.single_fun p{
+	font-family: "Source Serif 4", serif;
+	font-size: 18px;
+	color: #f4f5f9;
+}
+
+  /**************************************************************************************/
+ /********************************* pricing area css  8  *******************************/
+/**************************************************************************************/
+.pricing_header{
+	margin-bottom: 45px;
+}
+.pricing_header h2{
+	font-size: 36px;
+	color: #6a6a6a;
+}
+.pricing_header p{
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-bottom: 3px dotted #6a6a6a;
+}
+
+.single_pricing{
+	background-color: rgb(244, 245, 249);
+	margin: 20px 0;
+}
+.pricing_header_top h3{
+	background-color: rgb(153, 153, 153);
+	padding-top: 50px;
+	font-size: 24px;
+	color: #fff;
+	padding-bottom: 100px;
+}
+.pricing_mark{
+	margin-top: -60px;
+}
+.pricing_mark ul{
+	justify-content: center;
+}
+.pricing_mark ul li {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  font-family: "Source Serif 4", serif;
+  background: #fff;
+  border: 8px solid #b0b0b1;
+  border-radius: 50%;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 84px;
+}
+
+.pricing_box{
+	box-sizing: border-box;
+	padding: 15px 70px;
+}
+.pricing_box p{
+	line-height: 45px;
+}
+.prich_btn{
+	font-family: "Source Serif 4", serif;
+	padding: 10px 20px;
+	font-weight: 500;
+	border-radius: 5px;
+	background: #999999;
+	color: #fff;
+	cursor: pointer;
+} 
+
+
+  /**************************************************************************************/
+ /************************************ team area css  9  *******************************/
+/**************************************************************************************/
+.teame_area{
+	background: url(../images/team.png) no-repeat scroll 0 0 / 100% 100%;
+}
+.team_pading{
+	padding-bottom: 140px ;
+}
+.teame_heading h1{
+	font-size: 48px;
+	color: #fff;
+}
+.teame_heading p{
+	font-size: 14px;
+	color: #f4f5f9;
+	padding-bottom: 110px;
+}
+
+  /**************************************************************************************/
+ /*********************************** Other area css 10  *******************************/
+/**************************************************************************************/
+.other_area{
+	background-color: rgb(244, 245, 249);
+	border-bottom: 1px solid #999999;
+}
+.other_area{
+	padding-bottom: 40px;
+}
+.other_area h2{
+	color:#6a6a6a ;
+	font-weight: 800;
+}
+.other_area p{
+	font-size: 14px;
+	color: #999999;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	border-bottom: 3px dashed #999999;
+}
+.other_img{
+	padding: 10px;
+	margin: 2px 0;
+	background: #fff;
+}
+
+  /**************************************************************************************/
+ /************************************ Blog area css 11  *******************************/
+/**************************************************************************************/
+.blog_area{
+	background-color: rgb(244, 245, 249);
+}
+.bloger_heding{
+	padding-bottom: 30px;
+}
+.bloger_heding h2{
+	font-size: 36px;
+	color: #6a6a6a;
+}
+.bloger_heding p{
+	font-size: #999999;
+	font-size: 14px;
+	padding: 20px 0;
+}
+.blog_img img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.blog_area_teaxt{
+	padding: 10px;
+	background: #e74e3e;
+}
+.blog_area_teaxt h3{
+	font-size: 24px;
+	color: #fff;
+	padding: 10px 0;
+}
+.blog_area_teaxt p{
+	font-size: 14px;
+	color: #fff;
+}
+.blog_area_teaxt h4{
+	font-size: 19px;
+	color: #fff;
+	font-style: italic;
+}
+
+  /**************************************************************************************/
+ /******************************* subscribe area css 12  *******************************/
+/**************************************************************************************/
+.subscribe_area{
+	background: #caedfa;
+}
+.subscribing_all{
+	margin: 20px 0;
+}
+.subscribe_heading{
+	padding-bottom: 30px;
+}
+.subscribe_heading h2{
+	font-size: 36px;
+	color: #6a6a6a;
+}
+.subscribe_heading p{
+	font-size:14px ;
+	color: #6a6a6a;
+	padding: 20px 0;
+}
+
+.addresh_left{
+	background: #fff;
+	padding: 35px 70px;
+	box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.6);
+}
+.addresh_text h4{
+	font-size:24px ;
+	color: #e74e3e;
+	padding: 20px 0;
+}
+.addresh_text p{
+	font-size: 18px;
+	color: #999999;
+}
+
+.subscribe_riht{
+	background: #fff;
+	padding: 60px 80px;
+	box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.6);
+}
+.subscribe_riht input[type="text"] {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 17px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 1px solid #000;
+  box-sizing: border-box;
+}
+.subscribe_riht input[type="email"] {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.subscribe_riht textarea {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.subscribe_riht input[type="submit"] {
+  margin: 10px 0;
+  margin: 16px 0;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  background: #e74e3e;
+  border: 2px solid #e74e3e;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+  /**************************************************************************************/
+ /******************************* subscribe area css 13  *******************************/
+/**************************************************************************************/
+
+.trial_area{
+	background: url(../images/add/tree.png) no-repeat scroll 0 0 /100% 100%;
+}
+.trial_heading h1{
+	font-size: 36px;
+	color: #fff;
+	padding-top: 80px;
+}
+.trial_heading p{
+	font-size: 18px;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 60px;
+}
+
+  /**************************************************************************************/
+ /******************************* Footer    area css 14  *******************************/
+/**************************************************************************************/
+.footer_area{
+	background-color: rgb(32, 32, 32);
+}
+
+.left_icone ul{
+	display: flex;
+}
+.left_icone ul li a {
+  display: block;
+  padding: 10px 15px;
+  font-size: 20px;
+  color: #fff;
+  transition: .5s;
+}
+.left_icone ul li:hover a{
+	color: #e74c3c;
+}
+.left_icone ul li.active a{
+	color:#e74c3c ;
+}
+
+
+
